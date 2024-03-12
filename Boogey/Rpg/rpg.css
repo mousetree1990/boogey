@@ -1,0 +1,478 @@
+ .body{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(61, 56, 48);
+ }
+
+ .main{
+    display: flex;
+    position: fixed;
+    background-color:black;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    border-color: rgb(222, 215, 228);
+    border-style: solid;
+ }
+
+ .equipment{
+  display: flex;
+  position: absolute;
+  background-color: rgb(222, 215, 228);
+  height: 7%;
+  width: 18%;
+  top:80.5%;
+  left: 81%;
+  border: 4px;
+  border-color: rgb(58, 55, 55);
+  border-style: solid;
+ }
+
+ .helmSlot{
+  display: flex;
+  position:relative;
+  background-color: rgb(44, 43, 43);
+  height: 90%;
+  width: 23%;
+  left: 2%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
+
+ .chestSlot{
+  display: flex;
+  position:relative;
+  background-color: rgb(44, 43, 43);
+  height: 90%;
+  width: 23%;
+  left: 4%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
+
+ .legSlot{
+  display: flex;
+  position:relative;
+  background-color: rgb(44, 43, 43);
+  height: 90%;
+  width: 23%;
+  left: 6%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
+
+ .amuletSlot{
+  display: flex;
+  position:relative;
+  background-color: rgb(44, 43, 43);
+  height: 90%;
+  width: 23%;
+  left: 8%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
+
+ .storyBox{
+    display: flex;
+    position: relative;
+    background-color: rgb(222, 215, 228);
+    height: 40%;
+    width: 45%;
+    top: 5%;
+    left: 3%;
+    border: 4px;
+    border-color: rgb(58, 55, 55);
+    border-style: solid;
+
+ }
+
+ .innerStoryText{
+    display: flex;
+    position: relative;
+    background-color: rgb(222, 215, 228);
+    height: 85%;
+    width: 85%;
+    left: 7.5%;
+    top: 7.5%;
+    color: rgb(5, 5, 5);
+    font-family: monospace;
+    font-size: 18px;
+ }
+
+ .choiceBox{
+    display: flex;
+    position: relative;
+    background-color: rgb(222, 215, 228);
+    height: 13%;
+    width: 45%;
+    top: 47%;
+    right: 42.6%;
+    border: 4px;
+    border-color: rgb(58, 55, 55);
+    border-style: solid;
+ }
+
+ .enterButton{
+    display: flex;
+    position: relative;
+    height: 26%;
+    width: 12%;
+    top: 10%;
+    left: 43.5%;
+    background-color: rgb(44, 43, 43);
+    color: rgb(222, 215, 228);
+    font-family: monospace;
+    font-size: 18px;
+    font-stretch: expanded;
+    
+    
+ }
+
+ .store{
+    display:none;
+    position:inherit;
+    background-color: rgb(222, 215, 228);
+    height: 44.3%;
+    width: 25%;
+    left:50%;
+    top: 14%;
+    border-color: rgb(58, 55, 55);
+    border-style: solid;
+ }
+
+  .storeItemsDiv{
+   display: flex;
+   position:relative;
+   height: 100%;
+   width: 40%;
+   background-color: rgb(222, 215, 228);
+   padding: 0;
+  }
+
+  .storeItem1{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 5%;
+   left: 5%;
+   font-size: 20px;
+  }
+
+  .storeItem2{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top:25%;
+   left:5%;
+   font-size: 20px;
+  }
+
+  .storeItem3{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top:45%;
+   left:5%;
+   font-size: 20px;
+  }
+ 
+
+ .buyButtonDiv{
+   display: flex;
+   position: relative;
+   background-color: rgb(222, 215, 228);
+   height: 100%;
+   width: 20%;
+ }
+
+ .buyButton1{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 5%;
+   left: 5%;
+   font-size: 18px;
+ }
+
+ .buyButton2{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 25%;
+   left: 5%;
+   font-size: 18px;
+ }
+
+ .buyButton3{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 45%;
+   left: 5%;
+   font-size: 18px;
+ }
+
+  .exit{
+   display:flex;
+   position: absolute;
+   height: 10%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 80%;
+   left: 5%;
+   font-size: 18px;
+  }
+
+ .confirmBuyDiv{
+   display: flex;
+   position:relative;
+   height: 100%;
+   width: 40%;
+   background-color: rgb(222, 215, 228);
+   
+ }
+
+ .confirmItem1{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 5%;
+   left: 5%;
+   font-size: 20px;
+ }
+
+ .confirmItem2{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 25%;
+   left: 5%;
+   font-size: 20px;
+ }
+
+ .confirmItem3{
+   display:flex;
+   position: absolute;
+   height: 15%;
+   width: 90%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   top: 45%;
+   left: 5%;
+   font-size: 20px;
+ }
+
+ .buyConfirmButton{
+   display:flex;
+   position: absolute;
+   height: 10%;
+   width:50%;
+   top:80%;
+   left: 25%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   font-size: 18px;
+ }
+
+ .totalCost{
+   display: flex;
+   position: absolute;
+   height: 10%;
+   width:50%;
+   top:65%;
+   left: 25%;
+   background-color: rgb(44, 43, 43);
+   color: rgb(222, 215, 228);
+   font-size: 15px;
+ }
+
+ .startButton{
+    display: flex;
+    position: relative;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(44, 43, 43);
+    color: rgb(222, 215, 228);
+ }
+
+ .playerInventory{
+    display: flex;
+    position:absolute;
+    background-color: rgb(222, 215, 228);
+    height: 55.3%;
+    width: 14%;
+    left:83%;
+    top: 5%;
+    border-color: rgb(58, 55, 55);
+    border-style: solid;
+ }
+
+ .inventoryTitle{
+    display: flex;
+    position:relative;
+    height: 15%;
+    width:90%;
+    left: 5%;
+    background-color: rgb(222, 215, 228);
+    color:  rgb(44, 43, 43);
+    font-size: 30px;
+    font-family: monospace;
+    
+    
+ }
+
+ .inventoryItem1{
+  display: flex;
+  position:absolute;
+  height: 13%;
+  width:90%;
+  left: 5%;
+  background-color: rgb(44, 43, 43);
+  color: rgb(222, 215, 228);
+  font-size: 20px;
+  font-family: monospace;
+  top: 15%;
+ }
+
+ .inventoryItem2{
+  display: flex;
+  position:absolute;
+  height: 13%;
+  width:90%;
+  left: 5%;
+  background-color: rgb(44, 43, 43);
+  color: rgb(222, 215, 228);
+  font-size: 20px;
+  font-family: monospace;
+  top:30%;
+ }
+
+ .inventoryItem3{
+  display: flex;
+  position:absolute;
+  height: 13%;
+  width:90%;
+  left: 5%;
+  background-color: rgb(44, 43, 43);
+  color: rgb(222, 215, 228);
+  font-size: 20px;
+  font-family: monospace;
+  top: 45%;
+ }
+
+ .inventoryItem4{
+  display: flex;
+  position:absolute;
+  height: 13%;
+  width:90%;
+  left: 5%;
+  background-color: rgb(44, 43, 43);
+  color: rgb(222, 215, 228);
+  font-size: 30px;
+  font-family: monospace;
+  top: 60%;
+ }
+
+ .inventoryItem5{
+  display: flex;
+  position:absolute;
+  height: 13%;
+  width:90%;
+  left: 5%;
+  background-color: rgb(44, 43, 43);
+  color: rgb(222, 215, 228);
+  font-size: 30px;
+  font-family: monospace;
+  top: 75%;
+ }
+
+ .playerStats{
+  display: flex;
+  position: absolute;
+  background-color: rgb(222, 215, 228);
+  height: 7%;
+  width: 18%;
+  top:90.5%;
+  left: 81%;
+  border: 4px;
+  border-color: rgb(58, 55, 55);
+  border-style: solid;
+ }
+
+ .gold{
+  display: flex;
+  position:relative;
+  background-color: rgb(222, 215, 228);
+  height: 90%;
+  width: 23%;
+  left: 2%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
+
+ .attack{
+  display: flex;
+  position:relative;
+  background-color: rgb(222, 215, 228);
+  height: 90%;
+  width: 23%;
+  left: 4%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
+
+ .defense{
+  display: flex;
+  position:relative;
+  background-color: rgb(222, 215, 228);
+  height: 90%;
+  width: 23%;
+  left: 6%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
+
+ .hp{
+  display: flex;
+  position:relative;
+  background-color: rgb(222, 215, 228);
+  height: 90%;
+  width: 23%;
+  left: 8%;
+  top:6%;
+  font-family: monospace;
+  font-size: 15px;
+ }
